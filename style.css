@@ -1,0 +1,50 @@
+/* page reception */
+
+/* header */
+
+.part_1 {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: 160px;
+  width: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.couture,
+.couture_1 {
+  display: flex;
+  justify-content: center;
+}
+
+.couture_1 {
+  width: 250px;
+  height: 100px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  background-color: #54478c;
+}
+
+.menu {
+  display: inline-block;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+
+.accueil,
+.apprendre,
+.tissus,
+.contact {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
